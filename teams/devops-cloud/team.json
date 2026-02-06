@@ -1,0 +1,51 @@
+{
+  "team": "devops-cloud",
+  "version": "1.0.0",
+  "description": "DevOps and cloud team for infrastructure, CI/CD, deployment, and observability",
+  "members": [
+    {
+      "agent": "infra-explorer",
+      "role": "Infrastructure Explorer",
+      "model": "sonnet",
+      "phase": "discovery"
+    },
+    {
+      "agent": "cloud-architect",
+      "role": "Cloud Architect",
+      "model": "sonnet",
+      "phase": "execution"
+    },
+    {
+      "agent": "ci-cd-engineer",
+      "role": "CI/CD Engineer",
+      "model": "sonnet",
+      "phase": "execution"
+    },
+    {
+      "agent": "security-engineer",
+      "role": "Security Engineer",
+      "model": "sonnet",
+      "phase": "execution"
+    },
+    {
+      "agent": "sre-engineer",
+      "role": "SRE Engineer",
+      "model": "sonnet",
+      "phase": "review"
+    }
+  ],
+  "workflows": {
+    "infrastructure": {
+      "phases": ["discovery", "planning", "execution", "review", "summary"]
+    },
+    "deployment": {
+      "phases": ["discovery", "planning", "execution", "review", "summary"]
+    },
+    "migration": {
+      "phases": ["discovery", "planning", "execution", "review", "summary"]
+    },
+    "optimization": {
+      "phases": ["discovery", "execution", "review"]
+    }
+  }
+}
