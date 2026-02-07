@@ -1,0 +1,66 @@
+{
+  "team": "3d-design",
+  "version": "1.0.0",
+  "description": "3D design team for modeling, animation, rigging, texturing, VTuber creation, and asset optimization",
+  "members": [
+    {
+      "agent": "3d-analyst",
+      "role": "3D Analyst",
+      "model": "sonnet",
+      "phase": "discovery"
+    },
+    {
+      "agent": "modeler",
+      "role": "3D Modeler",
+      "model": "sonnet",
+      "phase": "execution"
+    },
+    {
+      "agent": "rigger",
+      "role": "3D Rigger",
+      "model": "sonnet",
+      "phase": "execution"
+    },
+    {
+      "agent": "animator",
+      "role": "3D Animator",
+      "model": "sonnet",
+      "phase": "execution"
+    },
+    {
+      "agent": "texturer",
+      "role": "3D Texturer",
+      "model": "sonnet",
+      "phase": "execution"
+    },
+    {
+      "agent": "vtuber-specialist",
+      "role": "VTuber Specialist",
+      "model": "sonnet",
+      "phase": "execution"
+    },
+    {
+      "agent": "asset-optimizer",
+      "role": "Asset Optimizer",
+      "model": "sonnet",
+      "phase": "review"
+    }
+  ],
+  "workflows": {
+    "asset": {
+      "phases": ["discovery", "planning", "execution", "review", "summary"]
+    },
+    "character": {
+      "phases": ["discovery", "planning", "execution", "review", "summary"]
+    },
+    "scene": {
+      "phases": ["discovery", "planning", "execution", "review", "summary"]
+    },
+    "vtuber": {
+      "phases": ["discovery", "planning", "execution", "review", "summary"]
+    },
+    "optimization": {
+      "phases": ["discovery", "execution", "review"]
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "mcpServers": {
+    "unity": {
+      "command": "npx",
+      "args": ["-y", "@anthropic/mcp-unity"],
+      "disabled": true
+    },
+    "blender": {
+      "command": "npx",
+      "args": ["-y", "@anthropic/mcp-blender"],
+      "disabled": true
+    },
+    "maya": {
+      "command": "npx",
+      "args": ["-y", "@anthropic/mcp-maya"],
+      "disabled": true
+    },
+    "3dsmax": {
+      "command": "npx",
+      "args": ["-y", "@anthropic/mcp-3dsmax"],
+      "disabled": true
+    },
+    "substance-painter": {
+      "command": "npx",
+      "args": ["-y", "@anthropic/mcp-substance-painter"],
+      "disabled": true
+    },
+    "vroid-studio": {
+      "command": "npx",
+      "args": ["-y", "@anthropic/mcp-vroid"],
+      "disabled": true
+    },
+    "omniverse": {
+      "command": "npx",
+      "args": ["-y", "@anthropic/mcp-omniverse"],
+      "disabled": true
+    }
+  }
+}

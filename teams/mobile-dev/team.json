@@ -1,0 +1,48 @@
+{
+  "team": "mobile-dev",
+  "version": "1.0.0",
+  "description": "Mobile development team for iOS, Android, and cross-platform applications",
+  "members": [
+    {
+      "agent": "mobile-analyst",
+      "role": "Mobile Requirements Analyst",
+      "model": "sonnet",
+      "phase": "discovery"
+    },
+    {
+      "agent": "ios-developer",
+      "role": "iOS Developer",
+      "model": "sonnet",
+      "phase": "execution"
+    },
+    {
+      "agent": "android-developer",
+      "role": "Android Developer",
+      "model": "sonnet",
+      "phase": "execution"
+    },
+    {
+      "agent": "cross-platform-dev",
+      "role": "Cross-Platform Developer",
+      "model": "sonnet",
+      "phase": "execution"
+    },
+    {
+      "agent": "mobile-qa",
+      "role": "Mobile QA Engineer",
+      "model": "sonnet",
+      "phase": "review"
+    }
+  ],
+  "workflows": {
+    "feature": {
+      "phases": ["discovery", "planning", "execution", "review", "summary"]
+    },
+    "bugfix": {
+      "phases": ["discovery", "execution", "review"]
+    },
+    "release": {
+      "phases": ["discovery", "planning", "execution", "review", "summary"]
+    }
+  }
+}
