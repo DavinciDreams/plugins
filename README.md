@@ -15,6 +15,8 @@ Agent team plugins for Claude Code. Each team is a pre-configured group of speci
 | [security](#security) | Security and compliance | 5 | Code security, vulnerability scanning |
 | [documentation](#documentation) | Technical documentation | 5 | API docs, tutorials, guides |
 | [qa-testing](#qa-testing) | QA and testing | 5 | Automated testing, performance, quality |
+| [mobile-dev](#mobile-dev) | Mobile development | 5 | iOS, Android, cross-platform |
+| [3d-design](#3d-design) | 3D design and assets | 7 | Modeling, animation, rigging, VTuber |
 
 ---
 
@@ -192,6 +194,49 @@ Agent team plugins for Claude Code. Each team is a pre-configured group of speci
 
 ---
 
+### mobile-dev
+
+**Mobile development team for iOS, Android, and cross-platform applications**
+
+- **Agents (5)**: Mobile Analyst, iOS Developer, Android Developer, Cross-Platform Developer, Mobile QA
+- **Key Skills**:
+  - iOS Development - Swift, SwiftUI, UIKit, iOS frameworks
+  - Android Development - Kotlin, Jetpack Compose, Android SDK
+  - Cross-Platform - React Native, Flutter, Xamarin
+  - Mobile Testing - Mobile-specific testing strategies and tools
+- **Workflows**: Feature, Bugfix, Release
+- **Usage**:
+  ```bash
+  /mobile-dev:mobile Build a cross-platform mobile app with authentication
+  /mobile-dev:status
+  ```
+
+---
+
+### 3d-design
+
+**3D design team for modeling, animation, rigging, texturing, VTuber creation, and asset optimization**
+
+- **Agents (7)**: 3D Analyst, Modeler, Rigger, Animator, Texturer, VTuber Specialist, Asset Optimizer
+- **Key Skills**:
+  - Unity - Unity 3D development and asset creation
+  - Blender - 3D modeling, sculpting, and animation
+  - Modeling - 3D modeling techniques and best practices
+  - Animation - Character and object animation workflows
+  - Rigging - Character rigging and skeletal systems
+  - Texturing - UV mapping, materials, and texture painting
+  - Omniverse - NVIDIA Omniverse for 3D collaboration
+  - VRoid - VRoid Studio for VTuber avatar creation
+  - Asset Optimization - 3D asset optimization for real-time rendering
+- **Workflows**: Asset, Character, Scene, VTuber, Optimization
+- **Usage**:
+  ```bash
+  /3d-design:3d Create a 3D character model with rigging and animation
+  /3d-design:status
+  ```
+
+---
+
 ## 📦 Installation
 
 ```bash
@@ -208,6 +253,8 @@ claude plugin install design-ux
 claude plugin install security
 claude plugin install documentation
 claude plugin install qa-testing
+claude plugin install mobile-dev
+claude plugin install 3d-design
 ```
 
 ## 💡 Usage
@@ -229,6 +276,8 @@ After installing a team, use its slash command to start a workflow:
 /security:security Review code for security vulnerabilities
 /documentation:docs Write getting started guide
 /qa-testing:qa Set up end-to-end testing pipeline
+/mobile-dev:mobile Build a cross-platform mobile app
+/3d-design:3d Create a 3D character model
 ```
 
 Check team status:
