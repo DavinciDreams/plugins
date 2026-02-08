@@ -23,6 +23,87 @@
       },
       "source": "./teams/game-dev",
       "category": "development"
+    },
+    {
+      "name": "marketing-seo",
+      "description": "Marketing, SEO, and social media team for content creation, optimization, and engagement",
+      "author": {
+        "name": "atlas-agents"
+      },
+      "source": "./teams/marketing-seo",
+      "category": "marketing"
+    },
+    {
+      "name": "data-science",
+      "description": "Data science and machine learning team for data analysis, ML model development, and MLOps",
+      "author": {
+        "name": "atlas-agents"
+      },
+      "source": "./teams/data-science",
+      "category": "data"
+    },
+    {
+      "name": "devops-cloud",
+      "description": "DevOps and cloud team for infrastructure, CI/CD, deployment, and observability",
+      "author": {
+        "name": "atlas-agents"
+      },
+      "source": "./teams/devops-cloud",
+      "category": "operations"
+    },
+    {
+      "name": "design-ux",
+      "description": "Design and UX team for user research, UI/UX design, wireframing, and accessibility",
+      "author": {
+        "name": "atlas-agents"
+      },
+      "source": "./teams/design-ux",
+      "category": "design"
+    },
+    {
+      "name": "security",
+      "description": "Security team for code security, vulnerability scanning, threat analysis, and compliance",
+      "author": {
+        "name": "atlas-agents"
+      },
+      "source": "./teams/security",
+      "category": "security"
+    },
+    {
+      "name": "documentation",
+      "description": "Documentation team for technical writing, API documentation, tutorials, and guides",
+      "author": {
+        "name": "atlas-agents"
+      },
+      "source": "./teams/documentation",
+      "category": "documentation"
+    },
+    {
+      "name": "qa-testing",
+      "description": "QA and testing team for automated testing, test coverage, performance testing, and quality assurance",
+      "author": {
+        "name": "atlas-agents"
+      },
+      "source": "./teams/qa-testing",
+      "category": "quality"
+    },
+    {
+      "name": "mobile-dev",
+      "description": "Mobile development team for iOS, Android, and cross-platform applications",
+      "author": {
+        "name": "atlas-agents"
+      },
+      "source": "./teams/mobile-dev",
+      "category": "development"
+    },
+    {
+      "name": "3d-design",
+      "description": "3D design team for modeling, animation, rigging, texturing, VTuber creation, and asset optimization with 7 specialist agents",
+      "author": {
+        "name": "atlas-agents"
+      },
+      "source": "./teams/3d-design",
+      "category": "design"
     }
   ]
 }
