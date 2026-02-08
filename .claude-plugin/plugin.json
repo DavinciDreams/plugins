@@ -1,0 +1,8 @@
+{
+  "name": "atlas-agents",
+  "description": "Agent team plugins for Claude Code - pre-configured teams of specialized agents that collaborate on complex tasks",
+  "author": {
+    "name": "atlas-agents"
+  },
+  "version": "1.0.0"
+}
