@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Team telemetry logger - appends tool usage events to JSONL.
+"""Vercel Gen UI team telemetry logger - appends tool usage events to JSONL.
 
 Reads PostToolUse hook data from stdin, writes structured events to:
-  ~/.claude/team-logs/design-ux.jsonl
+  ~/.claude/team-logs/vercel-gen-ui.jsonl
 
 Each line is a JSON object:
-  {"ts": "ISO8601", "tool": "Write", "file": "src/App.tsx", "team": "design-ux", "status": "ok"}
+  {"ts": "ISO8601", "tool": "Write", "file": "src/App.tsx", "team": "vercel-gen-ui", "status": "ok"}
 """
 
 import json
@@ -13,7 +13,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-TEAM = "design-ux"
+TEAM = "vercel-gen-ui"
 LOG_DIR = Path.home() / ".claude" / "team-logs"
 LOG_FILE = LOG_DIR / f"{TEAM}.jsonl"
 

@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "vercel": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-vercel"]
+    }
+  }
+}

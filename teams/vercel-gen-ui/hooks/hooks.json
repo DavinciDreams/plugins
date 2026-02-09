@@ -1,5 +1,5 @@
 {
-  "description": "marketing-seo team telemetry - logs tool usage to JSONL",
+  "description": "vercel-gen-ui team telemetry - logs tool usage to JSONL",
   "hooks": {
     "PostToolUse": [
       {

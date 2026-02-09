@@ -97,6 +97,15 @@
       "category": "development"
     },
     {
+      "name": "vercel-gen-ui",
+      "description": "Specialized team for building generative UI applications with Vercel, Next.js, AI SDK, and AI Elements",
+      "author": {
+        "name": "atlas-agents"
+      },
+      "source": "./teams/vercel-gen-ui",
+      "category": "development"
+    },
+    {
       "name": "3d-design",
       "description": "3D design team for modeling, animation, rigging, texturing, VTuber creation, and asset optimization with 7 specialist agents",
       "author": {

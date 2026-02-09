@@ -1,0 +1,24 @@
+{
+  "name": "vercel-gen-ui",
+  "displayName": "Vercel Generative UI Team",
+  "description": "Specialized team for building generative UI applications with Vercel, Next.js, AI SDK, and AI Elements",
+  "version": "1.0.0",
+  "agents": [
+    "vercel-deployment-specialist",
+    "nextjs-dev",
+    "vercel-ai-sdk-expert",
+    "vercel-ai-elements-dev"
+  ],
+  "commands": [
+    "vercel-gen-ui",
+    "status"
+  ],
+  "skills": [
+    "vercel-deployment",
+    "nextjs-gen-ui",
+    "vercel-ai-sdk",
+    "ai-elements"
+  ],
+  "hooks": ["team-logger"],
+  "primaryAgent": "nextjs-dev"
+}
