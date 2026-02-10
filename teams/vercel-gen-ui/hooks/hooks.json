@@ -4,7 +4,7 @@
     "PostToolUse": [
       {
         "type": "command",
-        "command": "python3 ${CLAUDE_PLUGIN_ROOT}/hooks/team-logger.py",
+        "command": "python ${CLAUDE_PLUGIN_ROOT}/hooks/team-logger.py",
         "timeout": 5
       }
     ]
